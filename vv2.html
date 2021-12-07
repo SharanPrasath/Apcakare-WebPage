@@ -1,0 +1,2124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>apcAKare</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/table.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="{% static 'logo.jpeg' %}"/>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <style type="text/css">
+    	tbody td:first-child {
+color: black;
+
+
+}
+.lordicon1{
+	margin-left: 100px;
+}
+.table1{
+	padding-bottom: 500px;
+}
+    	
+    	tr{
+    		color: black;
+    	}
+    	.item2{
+    		width: 100%;
+    	}
+    	.navigation{
+    		width: 100%;
+    	}
+
+    	body{
+				background-color: #3ec1d5;
+background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+font-family: 'poppins',sans-serif;
+		}
+    	.team{
+  padding: 30px;
+    transition: 1s;
+    box-shadow: 0 0 20px 0px #051d40;
+    flex-basis: 30%;
+    margin-left: 30px;
+    margin-right: 30px;
+    background: white;
+    margin-top: 100px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*.navigation {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin-top: 100px;
+}*/
+
+.navigation{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+
+.containers {
+  max-width: 1000px;
+  width: 100%;
+} 
+
+.tab-item a {
+  color: #a4a4a4;
+}
+
+
+
+.tabitem2{
+	padding-left: 300px;
+}
+
+
+
+.tab-item a:hover {
+  padding-bottom: 4px;
+  border-bottom: 3px solid #0FBEFF;
+}
+
+.wrapper_tab-content {
+  position: relative;
+}
+
+.tab-content {
+  position: absolute;
+  padding: 1.75em 0;
+  visibility: hidden;
+  height: 0;
+}
+
+.tab-content h1 {
+  font-size: 1.12em;
+  margin-bottom: .5em;
+}
+
+.content-visible {
+  position: static;
+  visibility: visible;
+  height: auto;
+}
+
+.active {
+  color: #444;
+  padding-bottom: 4px;
+  border-bottom: 3px solid #0FBEFF;
+}
+
+@media only screen and (max-width: 600px){
+
+lord-icon{
+	width: 100px;
+	height: 100px;
+
+
+}
+.lordicon1{
+	margin-left: 0;
+}
+.tabs{
+	justify-content: space-between;
+}
+.tabitem2{
+	padding-left: 0;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+.tabitem1{
+	padding-top: 20px;
+}
+
+}
+.lordicon{
+		display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-auto-rows: auto;
+align-items:center;
+justify-content:center;
+justify-items:center;
+}
+.tabitem1{
+	padding-left: 50px;
+	}
+    </style>
+
+
+
+</head>
+<body>
+	<div id="topbar" class="d-flex align-items-center fixed-top">
+        <div class="container d-flex justify-content-between">
+          <div class="contact-info d-flex align-items-center">
+            <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">contact@example.com</a>
+            <i class="bi bi-phone"></i> +91 123456789
+          </div>
+          <div class="d-none d-lg-flex social-links align-items-center">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+          </div>
+        </div>
+      </div>
+	<header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+        <div class="logo me-auto">
+            <h2><a href="index.html"><span>apc</span>AK<span>are</span></a></h2>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+        </div>
+      <!-- <h1 class="logo me-auto"><a href="index.html">Medilab</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar ">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
+          
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li> -->
+        </ul>
+        <i class="bi mobile-nav-toggle bi-list"></i>
+      </nav><!-- .navbar -->
+
+      <!-- <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a> -->
+
+    </div>
+</header>
+<div class="team">
+	<div class="container">
+        <div class="row ">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline services-head text-center">
+              <h2 style="margin-top: 30px;" >Vaccine and Vacancies</h2>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+        <div class="container">
+        <div class="row lordicon">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/hsotfjpx.json"
+    trigger="loop"
+    colors="primary:#121331,secondary:#66d7ee"
+    stroke="43"
+    class="lordicon1"
+    style="width:200px;height:200px;">
+</lord-icon>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/mdksbrtj.json"
+    trigger="loop"
+    colors="primary:#121331,secondary:#30c9e8"
+    style="width:200px;height:200px">
+</lord-icon>
+          </div>
+          
+          </div>
+        </div>
+
+
+        <div class="navigation">
+        	<section class="containers">
+  
+  <ul class="tabs">
+    <li class="tab-item tabitem1"><a href="#item1"  class="active">Vaccines</a></li>
+    <li class="tab-item tabitem2"><a href="#item2">Vacancies</a></li>
+    
+  </ul>
+  
+  <div class="wrapper_tab-content">
+    
+    <article id="item1" class="tab-content content-visible">
+      <main class="mobile_view">
+        <div class="container ">
+
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>A.S IMAGING CENTRE Private LTD, ARIYALUR TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Ariyalur</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>ARIYALUR GOLDEN HOSPITAL Private.LTD, ARIYALUR TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Ariyalur</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>MM HOSPITAL, ARIYALUR, TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Ariyalur</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Annai Arul Hospital, Kanchipuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>C-DOT HOSPITAL,KANCHEEPURAM TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Chettinad Super Speciality Hosp,Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Dr Kamakshi Memorial Hospital,Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Dr. Rela Inst. and Medical Centre,Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Gleneagles Global Health City, Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Hindu Mission Hospital,Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Karpaga Vinyaga Institute Kancheepuram ,TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Melmaruvathur Adhiparsakthi Inst, Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Narbhavi Multispeciality Hospital, Kancheepuram TN<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Kancheepuram</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Parvathy Ortho Hospital, Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Sai fertility centre and hospital,Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Sayee Hospitals,Padappai,Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Kancheepuram</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Shadithya Health Care, Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Shri Sathya Sai Medical College, Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>SREE RENGA NURSING HOME , KANCHEEPURAM TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Sri Balaji Medical Coll and Hosp, Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>SRM Medical College Hospital, Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>St. Thomas Hospital,Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Sugam Hospital, Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Tagore Medical Coll and Hosp, Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Balaji Hospital, Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Hindu Mission Health Services , Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Sankara Eye Hospital,Kancheepuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>SRICHAKARAMULTISPECIALITY HOSPITALKANCHIPURAM TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Shri Gangadhareshwarar Hth Ser Pvt,Kanchipuram TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chengalpattu</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Adyar PM Hospital,Adyar,Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Annai multi speciality,Virugambakkam,Chennai TN<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Apollo Childrens Hospital,Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Apollo Greams,Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>APOLLO SPECIALTY HOSPITAL, Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Apollo Spectra Hospital, R.A Puram, Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Appasamy Hospitals,Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Bharathirajaa Speciality Hospital, Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Billroth Hospitals Shenoy Nagar, Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Billroth,Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Bloom Health Care, Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Cancer Institute Adyar,Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Chennai National Hospital, Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Chennai Urology and Robotics Inst. OMR,Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>CSI KALYANI GENERAL HOSPITAL, Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>CSI RAINY MULTISPECIALITY HOSP , CHENNAI TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Dr Mehtas Hospitals Chetpet,Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Dr Rai Memorial Cancer Institute,Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Dr. Agarwals Eye Hospital,Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Faith Multispecialty Hospital,Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Gem Hospital and Research Ctr Private.Ltd,Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Hycare Super Speciality Hospital, Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>K.V.T SPECIALITY HOSPITAL,CHENNAI TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Kanchi Kamakoti Child Trust Hospital ,Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Kavery Hospital Chennai,TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai</span>
+            </div></div>
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                            <h5>Kumaran Hospital Kilpauk, Chennai TN.<a href="#"><i class="fas fa-map-marker-alt"></i></a></h5>
+                            <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Chennai<a href="#"></i></a></h5>
+            </div></div>
+
+            
+        </div>
+    </main>
+
+    <main class="desktop_view">
+          
+        
+        
+        <div class="table-wrapper">
+          <table class="table1" id="filterTable">
+            <thead>
+              <tr>
+                <th data-type="text">S.No</th>
+                <th data-type="text" style="text-align:center";>District</th>
+                <th data-type="text" style="text-align:center";>Hospital Name</th>
+                <th>Location   <i class="fas fa-map-marker-alt"></i></th>
+              </tr>
+            </thead>
+            <tbody>
+                    
+                
+                
+<tr><td id="1">1</td><td>Ariyalur</td><td>A.S IMAGING CENTRE Private LTD, ARIYALUR TN.</td><td><a href="#">Location</a></td></tr>
+ <tr><td id="2">2</td><td>Ariyalur</td><td>ARIYALUR GOLDEN HOSPITAL Private.LTD, ARIYALUR TN.</td><td><a href="#">Location</a></td></tr>
+ <tr><td id="3">3</td><td>Ariyalur</td><td>MM HOSPITAL, ARIYALUR, TN.</td><td><a href="#">Location</a></td></tr>
+ <tr><td id="4">4</td><td>Chengalpattu</td><td>Annai Arul Hospital, Kanchipuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr><td id="5">5</td><td>Chengalpattu</td><td>C-DOT HOSPITAL,KANCHEEPURAM TN.</td><td><a href="#">Location</a></td></tr>
+ <tr><td id="6">6</td><td>Chengalpattu</td><td>Chettinad Super Speciality Hosp,Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr><td id="7">7</td><td>Chengalpattu</td><td>Dr Kamakshi Memorial Hospital,Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr><td id="8">8</td><td>Chengalpattu</td><td>Dr. Rela Inst. and Medical Centre,Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr><td id="9">9</td><td>Chengalpattu</td><td>Gleneagles Global Health City, Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr><td id="10">10</td><td>Chengalpattu</td><td>Hindu Mission Hospital,Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr><td id="11">11</td><td>Chengalpattu</td><td>Karpaga Vinyaga Institute Kancheepuram ,TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="12">12</td><td>Chengalpattu</td><td>Melmaruvathur Adhiparsakthi Inst, Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="13">13</td><td>Kancheepuram</td><td>Narbhavi Multispeciality Hospital, Kancheepuram TN</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="14">14</td><td>Chengalpattu</td><td>Parvathy Ortho Hospital, Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="15">15</td><td>Chengalpattu</td><td>Sai fertility centre and hospital,Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="16">16</td><td>Kancheepuram</td><td>Sayee Hospitals,Padappai,Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="17">17</td><td>Chengalpattu</td><td>Shadithya Health Care, Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="18">18</td><td>Chengalpattu</td><td>Shri Sathya Sai Medical College, Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="19">19</td><td>Chengalpattu</td><td>SREE RENGA NURSING HOME , KANCHEEPURAM TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="20">20</td><td>Chengalpattu</td><td>Sri Balaji Medical Coll and Hosp, Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="21">21</td><td>Chengalpattu</td><td>SRM Medical College Hospital, Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="22">22</td><td>Chengalpattu</td><td>St. Thomas Hospital,Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="23">23</td><td>Chengalpattu</td><td>Sugam Hospital, Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="24">24</td><td>Chengalpattu</td><td>Tagore Medical Coll and Hosp, Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="25">25</td><td>Chengalpattu</td><td>Balaji Hospital, Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="26">26</td><td>Chengalpattu</td><td>Hindu Mission Health Services , Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="27">27</td><td>Chengalpattu</td><td>Sankara Eye Hospital,Kancheepuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="28">28</td><td>Chengalpattu</td><td>SRICHAKARAMULTISPECIALITY HOSPITALKANCHIPURAM TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="29">29</td><td>Chengalpattu</td><td>Shri Gangadhareshwarar Hth Ser Pvt,Kanchipuram TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="30">30</td><td>Chennai</td><td>Adyar PM Hospital,Adyar,Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="31">31</td><td>Chennai</td><td>Annai multi speciality,Virugambakkam,Chennai TN</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="32">32</td><td>Chennai</td><td>Apollo Childrens Hospital,Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="33">33</td><td>Chennai</td><td>Apollo Greams,Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="34">34</td><td>Chennai</td><td>APOLLO SPECIALTY HOSPITAL, Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="35">35</td><td>Chennai</td><td>Apollo Spectra Hospital, R.A Puram, Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="36">36</td><td>Chennai</td><td>Appasamy Hospitals,Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="37">37</td><td>Chennai</td><td>Bharathirajaa Speciality Hospital, Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="38">38</td><td>Chennai</td><td>Billroth Hospitals Shenoy Nagar, Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="39">39</td><td>Chennai</td><td>Billroth,Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="40">40</td><td>Chennai</td><td>Bloom Health Care, Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="41">41</td><td>Chennai</td><td>Cancer Institute Adyar,Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="42">42</td><td>Chennai</td><td>Chennai National Hospital, Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="43">43</td><td>Chennai</td><td>Chennai Urology and Robotics Inst. OMR,Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="44">44</td><td>Chennai</td><td>CSI KALYANI GENERAL HOSPITAL, Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="45">45</td><td>Chennai</td><td>CSI RAINY MULTISPECIALITY HOSP , CHENNAI TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="46">46</td><td>Chennai</td><td>Dr Mehtas Hospitals Chetpet,Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="47">47</td><td>Chennai</td><td>Dr Rai Memorial Cancer Institute,Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="48">48</td><td>Chennai</td><td>Dr. Agarwals Eye Hospital,Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="49">49</td><td>Chennai</td><td>Faith Multispecialty Hospital,Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="50">50</td><td>Chennai</td><td>Gem Hospital and Research Ctr Private.Ltd,Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="51">51</td><td>Chennai</td><td>Hycare Super Speciality Hospital, Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="52">52</td><td>Chennai</td><td>K.V.T SPECIALITY HOSPITAL,CHENNAI TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="53">53</td><td>Chennai</td><td>Kanchi Kamakoti Child Trust Hospital ,Chennai TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="54">54</td><td>Chennai</td><td>Kavery Hospital Chennai,TN.</td><td><a href="#">Location</a></td></tr>
+ <tr class="hidden"><td id="55">55</td><td>Chennai</td><td>Kumaran Hospital Kilpauk, Chennai TN.</td><td><a href="#">Location</a></td></tr>
+                                
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination">
+            <button class="backward" id="first">first</button>
+            <button class="backward" id="prev">previous</button>
+            <button class="forward" id="next">next</button>
+            <button class="forward" id="last">last</button>
+            <div class="page-numbers" id="pageNumbers"></div>
+
+          </div>
+      </main>
+    </article>
+    
+    <article id="item2" class="tab-content">
+    	<main class="mobile_view">
+        <div class="container ">
+
+            <div class="container mt-5 border border-3 p-3 rounded-3 ">
+                <h5>Sr Padmavathi Hospital Tirupati</h5>
+                <div><span>Help Desk  : <span style="color: green;">87722-87777</span>
+                <a href="tel:8772287777"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">77020-91111</span>
+                    <a href="tel:7702091111"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Government</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">54</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">259</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">238</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>PES Institute of Medical Sceinces</h5>
+                <div><span>Help Desk  : <span style="color: green;">85702-77722</span>
+                <a href="tel:8570277722"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">99088-15379</span>
+                    <a href="tel:9908815379"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Arogyasri</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">19</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">57</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">307</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>CITY CARE HOSPITAL</h5>
+                <div><span>Help Desk  : <span style="color: green;">73867-55512</span>
+                <a href="tel:7386755512"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">99596-04719</span>
+                    <a href="tel:9959604719"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Private</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">8</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">11</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>AH KUPPAM</h5>
+                <div><span>Help Desk  : <span style="color: green;">85702-55011</span>
+                <a href="tel:8570255011"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">94400-43934</span>
+                    <a href="tel:9440043934"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Government</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">10</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">45</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>SRI MARUTH SPECIALITY HOSPITAL</h5>
+                <div><span>Help Desk  : <span style="color: green;">80964-72077</span>
+                <a href="tel:8096472077"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">77993-53387</span>
+                    <a href="tel:7799353387"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Arogyasri</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">10</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">40</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">5</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">2</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>DH MADANAPALLI</h5>
+                <div><span>Help Desk  : <span style="color: green;">85712-22087</span>
+                <a href="tel:8571222087"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">77990-02286</span>
+                    <a href="tel:7799002286"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Government</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">13</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">57</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">30</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">20</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>MGM HOSPITAL</h5>
+                <div><span>Help Desk  : <span style="color: green;">72888-77300</span>
+                <a href="tel:7288877300"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">94900-31381</span>
+                    <a href="tel:9490031381"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Arogyasri</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">11</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">23</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">6</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">2</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>RUSSH HOSPITALS PRIVATE LIMITED</h5>
+                <div><span>Help Desk  : <span style="color: green;">98483-86464</span>
+                <a href="tel:9848386464"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">98854-91826</span>
+                    <a href="tel:9885491826"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Arogyasri</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">29</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">71</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">2</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>Amara Hospital</h5>
+                <div><span>Help Desk  : <span style="color: green;">73372-17572</span>
+                <a href="tel:7337217572"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">94906-10396</span>
+                    <a href="tel:9490610396"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Arogyasri</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">7</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">10</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>SANKALPA SUPER SPECIALITY HOSPITAL</h5>
+                <div><span>Help Desk  : <span style="color: green;">95508-21114</span>
+                <a href="tel:9550821114"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">93983-11264</span>
+                    <a href="tel:9398311264"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Arogyasri</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">8</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">47</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">40</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">4</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>AH SRI KALAHASTHI</h5>
+                <div><span>Help Desk  : <span style="color: green;">85782-22530</span>
+                <a href="tel:8578222530"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">91001-21864</span>
+                    <a href="tel:9100121864"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Government</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">42</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">10</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>ESI Hospital Tirupati</h5>
+                <div><span>Help Desk  : <span style="color: green;">87729-99010</span>
+                <a href="tel:8772999010"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">98499-09133</span>
+                    <a href="tel:9849909133"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Government</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">85</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">146</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>Lotus Hospital</h5>
+                <div><span>Help Desk  : <span style="color: green;">87722-52962</span>
+                <a href="tel:8772252962"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">94416-42505</span>
+                    <a href="tel:9441642505"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Partially Empanelled   </span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">7</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">35</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">25</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">5</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>SHUBHASHINIHOSPITAL</h5>
+                <div><span>Help Desk  : <span style="color: green;">85198-95316</span>
+                <a href="tel:8519895316"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">93985-55066</span>
+                    <a href="tel:9398555066"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Arogyasri</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">5</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">25</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">2</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>RVS Hospital</h5>
+                <div><span>Help Desk  : <span style="color: green;">63022-58418</span>
+                <a href="tel:6302258418"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">73309-80950</span>
+                    <a href="tel:7330980950"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Arogyasri</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">20</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">9</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">20</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>DIST HQ HOSPITAL AIMSR</h5>
+                <div><span>Help Desk  : <span style="color: green;">85722-95911</span>
+                <a href="tel:8572295911"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">98734-14725</span>
+                    <a href="tel:9873414725"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Government</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">44</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">237</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">210</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>Mary Lott Lyles Hospital</h5>
+                <div><span>Help Desk  : <span style="color: green;">85712-31500</span>
+                <a href="tel:8571231500"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">99495-99222</span>
+                    <a href="tel:9949599222"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Private</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">19</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">17</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>PRASAD HOSPITAL</h5>
+                <div><span>Help Desk  : <span style="color: green;">85842-44552</span>
+                <a href="tel:8584244552"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">99088-90606</span>
+                    <a href="tel:9908890606"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Private</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">4</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">11</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">25</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>SREE RAMADEVI MULTI SUPER SPECIALITY HOSPITAL</h5>
+                <div><span>Help Desk  : <span style="color: green;">87722-87156</span>
+                <a href="tel:8772287156"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">99665-61143</span>
+                    <a href="tel:9966561143"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Arogyasri</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">8</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">20</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">50</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">1</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>Narayanadri Hospitals and Research Institute Private Ltd</h5>
+                <div><span>Help Desk  : <span style="color: green;">63031-83710</span>
+                <a href="tel:6303183710"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">99639-71161</span>
+                    <a href="tel:9963971161"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Arogyasri</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">20</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">40</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">17</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>Sub divisional railway hospital,Renigunta</h5>
+                <div><span>Help Desk  : <span style="color: green;">97013-74476</span>
+                <a href="tel:9701374476"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">98851-04629</span>
+                    <a href="tel:9885104629"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Government</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">15</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">6</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>SVRRGG Hospital,CHITTOOR</h5>
+                <div><span>Help Desk  : <span style="color: green;">94917-64604</span>
+                <a href="tel:9491764604"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">98499-09063</span>
+                    <a href="tel:9849909063"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Government</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">114</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">589</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">300</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>DBR Hospital,Tirupathi</h5>
+                <div><span>Help Desk  : <span style="color: green;">92960-57459</span>
+                <a href="tel:9296057459"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">89857-50927</span>
+                    <a href="tel:8985750927"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Private</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">23</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">12</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">15</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">2</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>MEDIGO MULTY SPECILITY HOSPITAL</h5>
+                <div><span>Help Desk  : <span style="color: green;">91827-94746</span>
+                <a href="tel:9182794746"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">94408-14500</span>
+                    <a href="tel:9440814500"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Private</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">12</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">13</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">5</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>CMC Vellore Chittoor Campus</h5>
+                <div><span>Help Desk  : <span style="color: green;">85722-11883</span>
+                <a href="tel:8572211883"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">92931-53932</span>
+                    <a href="tel:9293153932"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Private</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">41</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>SRI PRIYA NURSING HOME</h5>
+                <div><span>Help Desk  : <span style="color: green;">85702-57136</span>
+                <a href="tel:8570257136"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">95735-02710</span>
+                    <a href="tel:9100121864"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Private</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">10</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">10</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">20</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>Sanjana Hospitals</h5>
+                <div><span>Help Desk  : <span style="color: green;">87722-38842</span>
+                <a href="tel:8772238842"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">96189-76851</span>
+                    <a href="tel:9618976851"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Private</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">8</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">7</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>AH Palamaner</h5>
+                <div><span>Help Desk  : <span style="color: green;">90302-30030</span>
+                <a href="tel:9030230030"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">95735-15066</span>
+                    <a href="tel:9573515066"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Government</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">29</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">15</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>RAVI NEURO</h5>
+                <div><span>Help Desk  : <span style="color: green;">72073-04614</span>
+                <a href="tel:7207304614"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">93988-86974</span>
+                    <a href="tel:9398886974"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Private</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">30</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>SWETHA MULTI SPECIALITY HOSPITAL</h5>
+                <div><span>Help Desk  : <span style="color: green;">89783-49888</span>
+                <a href="tel:8978349888"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">88972-27377</span>
+                    <a href="tel:8897227377"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Private</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">20</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>CHC Chandragiri</h5>
+                <div><span>Help Desk  : <span style="color: green;">90301-22143</span>
+                <a href="tel:9030122143"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">94400-77870</span>
+                    <a href="tel:9440077870"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Government</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">0</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">35</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>CHC Punganur</h5>
+                <div><span>Help Desk  : <span style="color: green;">90007-92221</span>
+                <a href="tel:9000792221"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div><span>Nodal Officer  : <span style="color: green;">98664-43212</span>
+                    <a href="tel:9866443212"><i class="fas fa-phone"></i></a>
+                </span></div>
+                <div class="mt-3"><span class="rounded p-1" style="background-color:rgb(85, 84, 84);color:white">Government</span></div>
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">2</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">16</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">2</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">2</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 border border-3 p-3 rounded-3">
+                <h5>Total</h5>
+               
+                
+                <div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>ICU Available</h6>
+                    <h6>O2 General</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">420</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">1802</div>
+                    </div>
+                    <div class="mt-3 d-flex flex-row justify-content-around">
+                    <h6>General Beds</h6>
+                    <h6>Ventilator</h6>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-around">
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(6, 197, 6);color:white;">1693</div>
+                    <div class="rounded p-1 px-2 text-center" style="background-color: rgb(201, 13, 0);color:white;">42</div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </main>
+
+    <main class="desktop_view">
+          <div class="innersearch">
+              <div>
+                <input placeholder="Enter search term" type="search" id="searchInput">
+              </div>
+            <div class="icon">
+              <i class="far fa-search"></i>
+            </div>
+          </div>
+        
+        
+        <div class="table-wrapper">
+          <table id="filterTable">
+            <thead>
+              <tr>
+                <th data-type="text" style="text-align:center";>Hospital Name</th>
+                <th data-type="text">Help Desk <br>Number</th>
+                <th data-type="text">Nodal Officer <br> Number</th>
+                <th data-type="text">Aarogyasri <br>empanelment <br> status</th>
+                <th data-type="text">ICU Available</th>
+                <th data-type="text">O2 General <br>Beds Available</th>
+                <th data-type="number">General Beds <br>Available</th>
+                <th data-type="number">Ventilators <br>Available</th>
+              </tr>
+            </thead>
+            <tbody>
+                    
+                <tr>
+                    <td>Sr Padmavathi Hospital Tirupati</td>
+                    <td>8772287777</td>
+                    <td>7702091111</td>
+                    <td>Government</td>
+                    <td>54</td>
+                    <td>259</td>
+                    <td>238</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr>
+                    <td>PES Institute of Medical Sceinces</td>
+                    <td>8570277722</td>
+                    <td>9908815379</td>
+                    <td>Arogyasri</td>
+                    <td>19</td>
+                    <td>57</td>
+                    <td>307</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr>
+                    <td>CITY CARE HOSPITAL</td>
+                    <td>7386755512</td>
+                    <td>9959604719</td>
+                    <td>Private</td>
+                    <td>0</td>
+                    <td>8</td>
+                    <td>11</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr>
+                    <td>AH KUPPAM</td>
+                    <td>8570255011</td>
+                    <td>9440043934</td>
+                    <td>Government</td>
+                    <td>0</td>
+                    <td>10</td>
+                    <td>45</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr>
+                    <td>SRI MARUTH SPECIALITY HOSPITAL</td>
+                    <td>8096472077</td>
+                    <td>7799353387</td>
+                    <td>Arogyasri</td>
+                    <td>10</td>
+                    <td>40</td>
+                    <td>5</td>
+                    <td>2</td>
+                </tr>
+            
+                <tr>
+                    <td>DH MADANAPALLI</td>
+                    <td>8571222087</td>
+                    <td>7799002286</td>
+                    <td>Government</td>
+                    <td>13</td>
+                    <td>57</td>
+                    <td>30</td>
+                    <td>20</td>
+                </tr>
+            
+                <tr>
+                    <td>MGM HOSPITAL</td>
+                    <td>7288877300</td>
+                    <td>9490031381</td>
+                    <td>Arogyasri</td>
+                    <td>11</td>
+                    <td>23</td>
+                    <td>6</td>
+                    <td>2</td>
+                </tr>
+            
+                <tr>
+                    <td>RUSSH HOSPITALS PRIVATE LIMITED</td>
+                    <td>9848386464</td>
+                    <td>9885491826</td>
+                    <td>Arogyasri</td>
+                    <td>29</td>
+                    <td>0</td>
+                    <td>71</td>
+                    <td>2</td>
+                </tr>
+            
+                <tr>
+                    <td>Amara Hospital</td>
+                    <td>7337217572</td>
+                    <td>9490610396</td>
+                    <td>Arogyasri</td>
+                    <td>7</td>
+                    <td>10</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr>
+                    <td>SANKALPA SUPER SPECIALITY HOSPITAL</td>
+                    <td>9550821114</td>
+                    <td>9398311264</td>
+                    <td>Arogyasri</td>
+                    <td>8</td>
+                    <td>47</td>
+                    <td>40</td>
+                    <td>4</td>
+                </tr>
+            
+                <tr>
+                    <td>AH SRI KALAHASTHI</td>
+                    <td>8578222530</td>
+                    <td>91001 21864</td>
+                    <td>Government</td>
+                    <td>0</td>
+                    <td>42</td>
+                    <td>10</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>ESI Hospital Tirupati</td>
+                    <td>8772999010</td>
+                    <td>9849909133</td>
+                    <td>Government</td>
+                    <td>0</td>
+                    <td>85</td>
+                    <td>146</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>Lotus Hospital</td>
+                    <td>8772252962</td>
+                    <td>9441642505</td>
+                    <td>Partially Empanelled</td>
+                    <td>7</td>
+                    <td>35</td>
+                    <td>25</td>
+                    <td>5</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>SHUBHASHINIHOSPITAL</td>
+                    <td>8519895316</td>
+                    <td>9398555066</td>
+                    <td>Arogyasri</td>
+                    <td>5</td>
+                    <td>25</td>
+                    <td>0</td>
+                    <td>2</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>RVS Hospital</td>
+                    <td>6302258418</td>
+                    <td>7330980950</td>
+                    <td>Arogyasri</td>
+                    <td>20</td>
+                    <td>9</td>
+                    <td>20</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>DIST HQ HOSPITAL AIMSR</td>
+                    <td>8572295911</td>
+                    <td>9873414725</td>
+                    <td>Government</td>
+                    <td>44</td>
+                    <td>237</td>
+                    <td>210</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>Mary Lott Lyles Hospital</td>
+                    <td>8571231500</td>
+                    <td>9949599222</td>
+                    <td>Private</td>
+                    <td>0</td>
+                    <td>19</td>
+                    <td>17</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>PRASAD HOSPITAL</td>
+                    <td>8584244552</td>
+                    <td>9908890606</td>
+                    <td>Private</td>
+                    <td>4</td>
+                    <td>11</td>
+                    <td>25</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>SREE RAMADEVI MULTI SUPER <br>SPECIALITY HOSPITAL</td>
+                    <td>8772287156</td>
+                    <td>9966561143</td>
+                    <td>Arogyasri</td>
+                    <td>8</td>
+                    <td>20</td>
+                    <td>50</td>
+                    <td>1</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>Narayanadri Hospitals and Research <br>Institute Private Ltd</td>
+                    <td>6303183710</td>
+                    <td>9963971161</td>
+                    <td>Arogyasri</td>
+                    <td>20</td>
+                    <td>40</td>
+                    <td>17</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>Sub divisional railway hospital,Renigunta</td>
+                    <td>9701374476</td>
+                    <td>9885104629</td>
+                    <td>Government</td>
+                    <td>0</td>
+                    <td>15</td>
+                    <td>6</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>SVRRGG Hospital,CHITTOOR</td>
+                    <td>9491764604</td>
+                    <td>9849909063</td>
+                    <td>Government</td>
+                    <td>114</td>
+                    <td>589</td>
+                    <td>300</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>DBR Hospital,Tirupathi</td>
+                    <td>9296057459</td>
+                    <td>8985750927</td>
+                    <td>Private</td>
+                    <td>23</td>
+                    <td>12</td>
+                    <td>15</td>
+                    <td>2</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>MEDIGO MULTY SPECILITY HOSPITAL</td>
+                    <td>9182794746</td>
+                    <td>9440814500</td>
+                    <td>Private</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>5</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>CMC Vellore Chittoor Campus</td>
+                    <td>8572211883</td>
+                    <td>9293153932</td>
+                    <td>Private</td>
+                    <td>0</td>
+                    <td>41</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>SRI PRIYA NURSING HOME</td>
+                    <td>08570-257136</td>
+                    <td>9573502710</td>
+                    <td>Private</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>20</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>Sanjana Hospitals</td>
+                    <td>0877-2238842</td>
+                    <td>9618976851</td>
+                    <td>Private</td>
+                    <td>0</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>AH Palamaner</td>
+                    <td>9030230030</td>
+                    <td>9573515066</td>
+                    <td>Government</td>
+                    <td>0</td>
+                    <td>29</td>
+                    <td>15</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>RAVI NEURO</td>
+                    <td>7207304614</td>
+                    <td>9398886974</td>
+                    <td>Private</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>30</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>SWETHA MULTI SPECIALITY HOSPITAL</td>
+                    <td>8978349888</td>
+                    <td>8897227377</td>
+                    <td>Private</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>20</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>CHC Chandragiri</td>
+                    <td>9030122143</td>
+                    <td>9440077870</td>
+                    <td>Government</td>
+                    <td>0</td>
+                    <td>35</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            
+                <tr class="hidden">
+                    <td>CHC Punganur</td>
+                    <td>9000792221</td>
+                    <td>9866443212</td>
+                    <td>Government</td>
+                    <td>2</td>
+                    <td>16</td>
+                    <td>2</td>
+                    <td>2</td>
+                </tr>
+            
+                <tr class="hidden">
+
+                    <td>Total</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>420</td>
+                    <td>1802</td>
+                    <td>1693</td>
+                    <td>42</td>
+                </tr>
+                                
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination">
+            <button class="backward" id="first">first</button>
+            <button class="backward" id="prev">previous</button>
+            <button class="forward" id="next">next</button>
+            <button class="forward" id="last">last</button>
+                        <div class="page-numbers" id="pageNumbers"></div>
+
+          </div>
+      </main>
+
+
+      
+    </article>
+    
+   
+    
+  
+    
+   
+    
+  </div>
+  
+</section>
+
+        	
+        </div>
+</div>
+<footer id="footer" style="bottom: :0px">
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h2><span>apc</span>KA<span>care</span></h2>
+                </div>
+
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                <div class="footer-icons">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>information</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                </p>
+                <div class="footer-contacts">
+                  <p><span>Tel:</span> +91 9023330478</p>
+                  <p><span>Email:</span> shubhankurpkm@gmail.com</p>
+                  <p><span>Working Hours:</span> 9am-5pm</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>Instagram</h4>
+                <div class="flicker-img">
+                  <a href="#"><img src="assets/img/portfolio/1.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/2.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/3.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/4.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/5.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/6.jpg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-area-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center">
+              <p>
+                &copy; Copyright <strong>eBusiness</strong>. All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script type="text/javascript">
+  	
+const selectTab = element => {
+  
+  const active = document.querySelector('.active');
+  
+  const visible = document.querySelector('.content-visible');
+  
+  const tabContent = document.getElementById(element.href.split('#')[1]);
+  
+ 
+  if (active) {
+    active.classList.remove('active');
+  }
+  
+  element.classList.add('active');
+  
+  if (visible) {
+    visible.classList.remove('content-visible');
+  }
+  
+  tabContent.classList.add('content-visible');
+  
+}
+
+//event delegation
+document.addEventListener('click', event => {
+  
+  //if a tab label is clicked
+  if (event.target.matches('.tab-item a')) {
+    //run the selectTab function, pass in the click event target 
+    selectTab(event.target);
+    
+    //the console log will show which tab label / anchor link is being selected
+    //console.log(event.target);
+  }
+}, false);
+  </script>
+  <script src="assets/js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
